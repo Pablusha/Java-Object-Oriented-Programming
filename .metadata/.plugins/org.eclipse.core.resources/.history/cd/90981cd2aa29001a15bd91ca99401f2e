@@ -1,0 +1,26 @@
+package defaultpackage;
+
+public class Example3 implements Example4 {
+	
+	String flavor;
+	
+	//And that's called encapsulation.Variables are usually has private access.
+	//The easier way to access the private variables we using getters and setters methods.
+	public void setFlavor(String newFlavor) {
+		flavor = newFlavor;
+	}
+	
+	public String getFlavor() {
+		return flavor;
+	}
+	
+	public static void main(String[] args) {
+		Example3 e3 = new Example3();
+		e3.openBag();
+	}
+
+	@Override
+	public void openBag() {
+		System.out.println("Bag opened");
+	}
+}

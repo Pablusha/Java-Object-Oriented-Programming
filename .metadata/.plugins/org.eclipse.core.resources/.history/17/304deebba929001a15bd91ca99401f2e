@@ -1,0 +1,15 @@
+package defaultpackage;
+
+public class Example3 {
+	
+	String flavor;
+	
+	public void openBag() {
+		System.out.println("Bag is opened!");
+	}
+	
+	public static void main(String[] args) {
+		Example3 e3 = new Example3();
+	
+	}
+}

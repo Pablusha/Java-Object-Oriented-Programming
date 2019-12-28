@@ -1,0 +1,6 @@
+package defaultpackage;
+
+public interface Example4 {
+	
+	final String flavor = "Beef";
+}

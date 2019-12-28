@@ -1,0 +1,16 @@
+package defaultpackage;
+
+public class Example1 {
+	
+	String name;
+	//So this is a polymorphism.One method could be same name an other method but with different parameters
+	//There are two polymorphism.
+	//1 - Overloading(Same name but with different parameters)
+	public void sayMyName() {
+		System.out.println("Heisenberg!");
+	}
+	
+	public void sayMyName(String name) { 
+		System.out.println("My name is" + name);
+	}
+}

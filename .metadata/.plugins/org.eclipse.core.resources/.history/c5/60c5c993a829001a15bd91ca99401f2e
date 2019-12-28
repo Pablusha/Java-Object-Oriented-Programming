@@ -1,0 +1,27 @@
+package defaultpackage;
+
+public class Example1 extends Example2 {
+	
+	String name;
+	//So this is a polymorphism.One method could be same name an other method but with different parameters
+	//There are two polymorphism.
+	//1 - Overloading(Same name but with different parameters)
+	//2 - Overriding(Go to example 2 class)
+	public void sayMyName() {
+		System.out.println("Heisenberg!");
+	}
+	
+	public void sayMyName(String name) { 
+		System.out.println("My name is" + name);
+	}
+	
+	public void sayHi() { //And this is a overriding.
+		
+	}
+	
+	public static void main(String[] args) {
+		Example1 e1 = new Example1();
+		e1.sayHi();
+	}
+	
+}

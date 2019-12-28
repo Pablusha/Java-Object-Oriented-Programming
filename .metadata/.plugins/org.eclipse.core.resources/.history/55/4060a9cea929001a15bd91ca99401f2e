@@ -1,0 +1,20 @@
+package defaultpackage;
+
+public class Example3 {
+	
+	String flavor;
+	
+	public void openBag() {
+		System.out.println("Bag is opened!");
+	}
+	
+	public void setFlavor(String newFlavor) {
+		flavor = newFlavor;
+	}
+	
+	
+	public static void main(String[] args) {
+		Example3 e3 = new Example3();
+	
+	}
+}

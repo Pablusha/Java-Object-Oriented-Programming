@@ -1,0 +1,14 @@
+package defaultpackage;
+
+public class Example1 {
+	
+	String name = "Heisenberg";
+	
+	public void sayMyName() {
+		System.out.println("Heisenberg!");
+	}
+	
+	public void sayMyName(String name) {
+		
+	}
+}

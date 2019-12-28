@@ -1,0 +1,12 @@
+package defaultpackage;
+
+public class Example3 {
+	
+	public void openBag() {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

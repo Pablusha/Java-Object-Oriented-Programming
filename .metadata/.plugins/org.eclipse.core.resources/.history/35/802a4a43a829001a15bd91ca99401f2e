@@ -1,0 +1,8 @@
+package defaultpackage;
+
+public class Example2 extends Example1 {
+	
+	public void sayHi() {
+		System.out.println("Say Hi");
+	}
+}
